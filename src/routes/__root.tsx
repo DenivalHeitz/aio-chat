@@ -6,11 +6,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider";
 import Header from "../components//header/header";
 
 // sidebar deps
-import {
-  SidebarProvider,
-  SidebarTrigger,
-  SidebarInset,
-} from "@/components/ui/sidebar";
+import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 
 export const Route = createRootRoute({
